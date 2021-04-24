@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SettingsActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/set_up_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="70dp"
+        app:civ_border_width="2dp" />
+
+    <EditText
+        android:id="@+id/set_up_username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_up_image"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:padding="20dp"
+        android:hint="User Name"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/set_up_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_up_username1"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:padding="20dp"
+        android:hint="Status"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/set_up_country_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_up_status"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:padding="20dp"
+        android:hint="Country"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/set_up_save_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_up_country_name"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttons"
+        android:text="Save"
+        android:layout_marginLeft="175dp"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>
