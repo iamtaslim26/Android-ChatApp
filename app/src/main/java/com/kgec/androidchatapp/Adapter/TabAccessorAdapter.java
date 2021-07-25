@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import com.kgec.androidchatapp.Fragments.ChatsFragment;
 import com.kgec.androidchatapp.Fragments.UsersFragment;
 
+
 public class TabAccessorAdapter extends FragmentPagerAdapter {
     public TabAccessorAdapter(@NonNull FragmentManager fm) {
         super(fm);
